@@ -116,8 +116,13 @@ span {
     
 }
 
+.main-container {
+    width:80%;
+    position:relative;
+}
 article {
-    text-align: center;
+    padding-left: 15%;
+    text-align:center;
 }
 footer {
     text-align: center;
