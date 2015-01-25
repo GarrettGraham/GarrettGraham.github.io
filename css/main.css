@@ -107,21 +107,18 @@ textarea {
     align-content: center;
 }
 
-blockquote {
+
+.main-container {
+    width:90%;
     text-align: center;
 }
 
-span {
-    text-align:right;
-    
+blockquote {
+text-align:center;
 }
 
-.main-container {
-    width:80%;
-    position:relative;
-}
+
 article {
-    padding-left: 15%;
     text-align:center;
 }
 footer {
