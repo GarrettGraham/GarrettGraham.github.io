@@ -109,8 +109,18 @@ textarea {
 
 
 .main-container {
-    width:90%;
-    text-align: center;
+    width:70%;
+    margin:-4em auto;
+    position:relative;
+    z-index:4;
+}
+
+.main-container .sidebar-content {
+   
+}
+
+.logo-container {
+    
 }
 
 blockquote {
