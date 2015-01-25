@@ -98,7 +98,11 @@ textarea {
    ========================================================================== */
 
 .banner {
-    background-image:url("https://tse1.mm.bing.net/th?&id=HN.608050482015568730&w=300&h=300&c=0&pid=1.9&rs=0&p=0")
+    background-image:url(img/Cape_Cod.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-sizes:cover;
+    background-size:cover;
 }
 
 .container {
