@@ -98,17 +98,11 @@ textarea {
    ========================================================================== */
 
 .banner {
-    background-image:url(img/Cape_Cod.jpg) no-repeat center center fixed;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-sizes:cover;
-    background-size:cover;
+    background-image:url("https://analivingston.files.wordpress.com/2013/05/sistine-chapel-ceiling-michelangelo-ana-livingston-fine-artist-muralist.jpg");
+    width:42.875em
+    height:31.500em;
 }
 
-.container {
-    text-align:center;
-    margin:0 auto;
-}
 
 
 
