@@ -103,6 +103,14 @@ textarea {
     height:31.500em;
 }
 
+blockquote {
+    text-align: center;
+}
+
+span {
+    text-align:right;
+    
+}
 
 footer {
     text-align: center;
