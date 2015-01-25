@@ -98,7 +98,13 @@ textarea {
    ========================================================================== */
 
 .banner {
-    background-image:url("http://www.roomforromance.com/images/sized/694x/Italy_Dolomites_Destination.jpg");
+    background-image:url('http://www.roomforromance.com/images/sized/694x/Italy_Dolomites_Destination.jpg');
+    background-position: 0 0;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:30em;
+    align-content: center;
 }
 
 blockquote {
