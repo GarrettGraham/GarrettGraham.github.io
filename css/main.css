@@ -110,9 +110,8 @@ textarea {
 
 .main-container {
     width:70%;
-    margin:-4em auto;
+    margin:auto;
     position:relative;
-    z-index:4;
 }
 
 .main-container .sidebar-content {
