@@ -123,13 +123,24 @@ textarea {
 }
 
 blockquote {
-text-align:center;
+    text-align:center;
+    word-break:break-all;
+}
+
+blockquote span {
+   
+
 }
 
 
 article {
     text-align:center;
 }
+
+article p {
+    text-indent:0.5in;
+}
+
 footer {
     text-align: center;
 }
