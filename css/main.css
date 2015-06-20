@@ -98,15 +98,22 @@ textarea {
    ========================================================================== */
 
 .banner {
-    background-image:url('http://www.roomforromance.com/images/sized/694x/Italy_Dolomites_Destination.jpg');
-    background-position: 0 0;
-    background-repeat:no-repeat;
+    background-image:url('../img/StockPhoto1.jpeg');
+	background-position: 0 0;
+	position: relative;
     background-size:cover;
     width:100%;
-    height:30em;
-    align-content: center;
+    height:25em;
 }
 
+.picOfMe {
+	height:8em;
+/*	widtht:7.938em;*/
+	border-radius:50%;
+	border: solid 5px white;
+	position:relative;
+	top:-4.3em;
+}
 
 .main-container {
     width:70%;
