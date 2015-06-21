@@ -155,10 +155,6 @@ article > p {
 
 blockquote {
     text-align:center;
-    word-break:break-all;
-	margin-left: 5em;
-	margin-right: 5em;
-	style:none;
 }
 
 footer {
