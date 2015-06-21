@@ -154,15 +154,9 @@ h5 {
 	color: #aaa;
 }
 
-
-/*
-.main-container {
-    width:70%;
-    margin:auto;
-    position:relative;
+.blog-content {
+	padding-left: 2em;
 }
-*/
-
 
 article > p {
 	text-align: left;
@@ -171,6 +165,13 @@ article > p {
 blockquote {
     text-align:center;
 }
+
+.iChingReference {
+	margin-left: 5em;
+	margin-right: 5em;
+	text-align: center;
+}
+
 
 footer {
     text-align: center;
