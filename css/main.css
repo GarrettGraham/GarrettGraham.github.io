@@ -118,7 +118,7 @@ textarea {
 /*	margin: 5em auto 0;*/
 }
 
-#sidebar {
+.sidebar {
 	color: #aaa;
 	text-align: center;
 }
@@ -141,10 +141,8 @@ textarea {
 }
 */
 
-/*below is the css from the longform demo*/
-
-.logo-container {
-    
+article {
+	text-align: left;
 }
 
 blockquote {
