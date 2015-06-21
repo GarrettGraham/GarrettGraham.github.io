@@ -128,10 +128,10 @@ textarea {
 */
 
 /*below is the css from the longform demo*/
-.sidebar {
-	float: left;
+#sidebar {
+/*	float: left;*/
 	width: 25%;
-	min-width: 10em;
+/*	min-width: 10em;*/
 	text-align: left;
 	padding-right: 3.750em;
 	word-wrap: break-word;
