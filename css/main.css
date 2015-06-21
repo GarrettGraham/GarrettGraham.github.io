@@ -115,14 +115,25 @@ textarea {
 	top:-4.3em;
 }
 
+#page-wrap {
+/*	margin: 5em auto 0;*/
+}
+
+/*
 .main-container {
     width:70%;
     margin:auto;
     position:relative;
 }
+*/
 
-.main-container .sidebar-content {
-   
+.sidebar {
+	float: left;
+	width: 25%;
+	min-width: 10em;
+	text-align: left;
+	padding-right: 3.750em;
+	word-wrap: break-word;
 }
 
 .logo-container {
