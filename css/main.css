@@ -166,6 +166,12 @@ blockquote {
     text-align:center;
 }
 
+.iChingHexagram {
+	height: 3em;
+	display: block;
+	margin: 0 auto;
+}
+
 .iChingReference {
 	margin-left: 5em;
 	margin-right: 5em;
