@@ -124,6 +124,10 @@ h5 {
 /*	margin: 5em auto 0;*/
 }
 
+.signature {
+	margin-top: 0;
+}
+
 .sidebar {
 	color: #aaa;
 	text-align: center;
