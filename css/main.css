@@ -108,7 +108,6 @@ textarea {
 
 .picOfMe {
 	height:8em;
-/*	widtht:7.938em;*/
 	border-radius:50%;
 	border: solid 5px white;
 	position:relative;
@@ -121,10 +120,17 @@ textarea {
 
 #sidebar {
 	color: #aaa;
+	text-align: center;
 }
 
 .links {
 	list-style:none;
+	display:inline;
+}
+
+.links a {
+	text-decoration:none;
+	color: #aaa;
 }
 
 /*
