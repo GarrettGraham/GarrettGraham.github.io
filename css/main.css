@@ -132,13 +132,15 @@ h5 {
 .signature {
 	margin-top: 0;
 	margin-bottom: 1em;
-	margin-left:0.5em;
-	margin-right:0.5em;
 }
 
 .sidebar {
 	color: #aaa;
 	text-align: center;
+}
+
+.aboutMe {
+	text-align: justify;
 }
 
 .links {
