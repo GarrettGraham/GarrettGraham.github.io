@@ -24,7 +24,7 @@ var monthNames = new Array(
 "August","September","October","November","December");
 
 var now = new Date();
-document.write(dayNames[now.getDay()] + ", " + 
+document.getElementById("currentDate").innerHTML = (dayNames[now.getDay()] + ", " + 
 monthNames[now.getMonth()] + " " + 
 now.getDate() + ", " + now.getFullYear());
 
