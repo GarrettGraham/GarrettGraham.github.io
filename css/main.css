@@ -119,6 +119,14 @@ textarea {
 /*	margin: 5em auto 0;*/
 }
 
+#sidebar {
+	color: #aaa;
+}
+
+.links {
+	list-style:none;
+}
+
 /*
 .main-container {
     width:70%;
@@ -128,14 +136,6 @@ textarea {
 */
 
 /*below is the css from the longform demo*/
-#sidebar {
-/*	float: left;*/
-	width: 25%;
-/*	min-width: 10em;*/
-	text-align: left;
-	padding-right: 3.750em;
-	word-wrap: break-word;
-}
 
 .logo-container {
     
