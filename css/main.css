@@ -97,6 +97,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h3 {
+	text-align: center;
+}
+
 .banner {
     background-image:url('../img/StockPhoto1.jpeg');
 	background-position: 0 0;
@@ -133,6 +137,7 @@ textarea {
 	color: #aaa;
 }
 
+
 /*
 .main-container {
     width:70%;
@@ -141,40 +146,21 @@ textarea {
 }
 */
 
-article {
+
+article > p {
 	text-align: left;
 }
 
 blockquote {
     text-align:center;
     word-break:break-all;
-}
-
-blockquote span {
-   
-
-}
-
-
-article {
-    text-align:center;
-}
-
-article p {
-    text-indent:0.5in;
+	margin-left: 5em;
+	margin-right: 5em;
 }
 
 footer {
     text-align: center;
 }
-
-
-
-
-
-
-
-
 
 
 
