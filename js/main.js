@@ -20,4 +20,4 @@ var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday",
 var monthNames = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
 var now = new Date();
-document.getElementById("currentDate").innerHTML = (dayNames[now.getDay()] + ", " + now.getDate() + ", " + now.getFullYear());
+document.getElementById("currentDate").innerHTML = (dayNames[now.getDay()] + ", " + now.getMonth() + now.getDate() + ", " + now.getFullYear());
