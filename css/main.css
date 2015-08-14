@@ -182,10 +182,18 @@ blockquote {
 	text-align: center;
 }
 
-
+/*citation footer*/
 footer {
     text-align: center;
 }
+
+/*page footer*/
+.footer {
+  /*background-color: #BFEFFF;*/
+    background-image:url('../img/StockPhoto1.jpeg');
+    color: #FFFFFF;
+}
+
 
 
 
