@@ -20,7 +20,18 @@
       controller: 'blogCtrl',
       controllerAs: 'blog'
     })
-    .state('profWriting')
+    .state('profWriting', {
+      url: '/profWriting',
+      templateUrl: 'profWriting.html',
+      controller: 'profWritingCtrl',
+      controllerAs: 'profWriting'
+    })
+    .state('photography', {
+      url: '/photography',
+      templateUrl: 'photography.html',
+      controller: 'photographyCtrl',
+      controllerAs: 'photography'
+    });
 
   }]);
 })();
