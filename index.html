@@ -3,7 +3,7 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js">
+<html ng-app="myBlog">
 <!--<![endif]-->
 
 <head>
@@ -39,37 +39,27 @@
 				<h1 class="signature">Garrett Graham</h1>
 				<p class="aboutMe">Humanitarian with a zest for life, I believe that knowledge is power, to not only advance personally but to advance others as well. The beauty in technology is the ease with which information is disseminated. That is where I come in. I have always been a connector of people and ideas, bridging gaps is my game. I am a classically trained violinist and a certified yoga instructor seeking the balance in life.</p>
 				<hr>
-				<!-- <ul class="links">
+				<ul class="links">
+					<!-- I want the projects to show up on the initial view of the page and so I named it home. -->
+					<li><a ui-sref="home">Projects</a>
+						<li>
 					<li><a ui-sref="blog">Blog</a>
 					</li>
-					<li><a href="#">Professional Writing</a>
+					<li><a ui-sref="profWriting">Professional Writing</a>
 					</li>
 					<li><a href="#">Photography</a>
 					</li>
 					<li><a href="#">Ask</a>
 					</li>
-				</ul> -->
+				</ul>
 			</aside>
 		</div>
 
 		<div class="col-xs-12 col-sm-8 col-md-8">
 		<div class="blog-content">
 			<div ui-view></div>
-			<article>
-			<h3>Integration is Hot</h3>
-			<p>Collaboration is key to a growing business seeking a competitive edge in a challenging marketplace. Social and search marketing are inexorably bound to one another and are valuable for successful market integration. The utmost goal of a business is the bottom line which requires a holistic approach when implementing successful marketing campaigns. Within larger organizations, it can be common that a multi-departmental structure hinders growth with missed opportunities because of misalignment of priorities and departmental goals. One must understand how to implement tactics that are proven to help in-house marketing departments, agencies and consultancies interact to achieve deeper, connected social and search marketing programs.</p>
-			<br>
-			<p>The presence of artificial barriers separating social and search programs coupled with divisions of strategy, budget, leadership and labor no longer serve modern marketing outcomes. Rethinking and updating how search and social marketing teams interact can revamp a system that otherwise hinders itself. It is especially important to embrace change and reconfiguration should be top priority in a tech environment that moves as quickly as digital marketing. Adaptation and flexibility provides an avenue toward survival in an ever evolving industry. A multi-team organization must embrace change together!</p>
-			</article>
-			<article>
-			<h3>Grab Consumer Attention and Keep It</h3>
-			<p>In this fast paced and ever changing world, it is imperative to garner the best possible recognition for your business. The online market is a vast ecosystem of consumers who are, according to entrepeneur.com, exposed to more than 5,000 advertisements per day. Of those advertisements, only about 12 will make a lasting impression on the average consumer which invariably limits consumer conversion. It is apparent that there must exist an implementation of strategies that allow your business to augment its identity against the competitive clutter. In order to best retain consumer attention is to first and foremost understand your desired audience and then build emotional connections with those you wish to attract.</p>
-			<br>
-			<p>No longer is it enough to sell a great product. Your business may have an amazing product that would otherwise sell itself, but the user experience must translate well or a sale can be lost. A psycho-emotionally stimulating and user friendly interface is imperative to a successful conversion funnel. Your business must leverage its online presence to not only present a product but to provide an experience that will augment that product, thereby increasing the odds a website visit will lead to consumer retention. Live by the methodology of “benefits first, features second.” Grab the user’s attention as quick as possible and then explain to them what your product or service does <em>for</em> them. Understanding how your product satisfies the intrinsic need of the consumer will better set your business apart from the competition.</p>
-			<br>
-			<p>Psychology plays an important role when it comes to understanding your business’ target market. As simplistic as it seems, people avoid painful and unhappy experiences and leveraging this psychology of pain vs. pleasure can be a marketing gold mine when establishing and improving your relationship with your audience. One of the first pleasure psychologists, Epicurus, created the theory of happiness which states that people make choices based on what will ultimately make them happy. Industries such as health and wellness use techniques that demonstrate their value to people by directly addressing obesity in their copy as well as the attainable benefits of their product or service that improves the consumer’s overall well-being. As long as your tactics are ethically bound and do not provide false promises, you can hit a consumer where it hurts as long as you can truly provide a solution.</p>
-			</article>
-			<article>
+
+		<!--	<article>
 			<h3>The Essense of Music</h3>
 			<blockquote>
 			<p><em>"The art of music is divine and effective. It is the food of the soul and spirit"</em></p>
@@ -80,10 +70,10 @@
 			<br>
 			<p>Our power as creators is exemplified in what is possible to express through a rhythmic composition of melodic harmony (or lack thereof). Not only does the study of music theory instruct proper chordal progression but, more simplistically, it provides a foundation for comprehending a less than superficial understanding of consonance and dissonance. Inherently understanding what sounds pleasing (and abhorrent) is a ubiquitous attribute of an individual who looks beyond the black and white of printed music. The art of sound is available to all those willing to traverse the journey in becoming what it is to be a spiritually connected being.</p>
 			</article>
-			<article>
+			<article> -->
 <!--								<a rel="bookmark" href="https://GarrettGraham.github.io/"></a>-->
 		<!-- testing to see about injecting the JS Date here -->
-		<h3 id="post2">Over the Course of a Journey</h3>
+		<!-- <h3 id="post2">Over the Course of a Journey</h3>
 
 				<blockquote>
 					<p><em>"Our greatest fears lie in anticipation."</em></p>
@@ -137,19 +127,10 @@
 	</div>
 		<footer class="footer">&copy; 2015 <br> Garrett Lee Graham Anderson</footer>
 	<!-- bower:js -->
-	<script>
-	//Array of day names
-	var dayNames = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
-
-	//Array of month names
-	var monthNames = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
-
-	var now = new Date();
-	document.getElementById("currentDate").innerHTML = (dayNames[now.getDay()] + ", " + monthNames[now.getMonth()] + " " + now.getDate() + ", " + now.getFullYear());
-</script>
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
 	<script src="bower_components/angular/angular.js"></script>
+	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 	<!-- endbower -->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	<script>

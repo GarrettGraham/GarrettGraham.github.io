@@ -8,18 +8,19 @@
     $urlRouterProvider.otherwise('/');
 
     $stateProvider
-    // .state('home', {
-    //     url: '/',
-    //     templateUrl: '/index.html',
-    //     controller: 'mainCtrl',
-    //     controllerAs: 'main'
-    // })
     .state('home', {
-      url: '/',
+        url: '/',
+        templateUrl: '/projects.html',
+        controller: 'projectsCtrl',
+        controllerAs: 'projects'
+    })
+    .state('blog', {
+      url: '/blog',
       templateUrl: '/blog.html',
       controller: 'blogCtrl',
       controllerAs: 'blog'
-    });
+    })
+    .state('profWriting')
 
   }]);
 })();
