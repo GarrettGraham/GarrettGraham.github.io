@@ -106,13 +106,7 @@ h3, h4, h5 {
   width: 100%;
   height: 25em;
 }
-.picOfMe {
-  height: 8em;
-  border-radius: 50%;
-  border: solid 5px white;
-  position: relative;
-  top: -4.3em;
-}
+
 #page-wrap {
   /*	margin: 5em auto 0;*/
 }
@@ -120,17 +114,28 @@ h3, h4, h5 {
   position: relative;
   top: -2em;
 }
-.signature {
-  margin-top: 0;
-  margin-bottom: 1em;
-}
+
 .sidebar {
   color: #aaa;
   text-align: center;
 }
+.picOfMe {
+  height: 8em;
+  border-radius: 50%;
+  border: solid 5px white;
+  position: relative;
+  top: -4.3em;
+}
+/* my name in the aside */
+.signature {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+/* about me text */
 .aboutMe {
   text-align: justify;
 }
+/* page view nav */
 .links {
   list-style: none;
   display: inline;
@@ -140,9 +145,12 @@ h3, h4, h5 {
   text-decoration: none;
   color: #aaa;
 }
+/* ui view of the various content to populate to the right of sidebar*/
 .blog-content {
   padding-left: 2em;
 }
+
+/* blog writing and img*/
 article > p {
   text-align: left;
 }
@@ -160,6 +168,20 @@ blockquote {
   text-align: center;
 }
 
+/* projects for portfolio view */
+
+.firstProject {
+  margin:auto;
+  border: 3px solid #aaa;
+}
+.secondProject {
+  margin: auto;
+  padding: 2em 0 2em 0;
+}
+.thirdProject {
+  margin: 0 auto 2em;
+  border: 3px solid #aaa;
+}
 /*citation footer*/
 
 footer {
