@@ -145,9 +145,10 @@ h3, h4, h5 {
   text-decoration: none;
   color: #aaa;
 }
-/* ui view of the various content to populate to the right of sidebar*/
-.blog-content {
-  padding-left: 2em;
+/* ui view of the various content to populate to the right of sidebar. The main-content controls the box of what is shown in various views*/
+/* mobile view first for main content section so it is centered on page with respect to rest of the content */
+.mainContent {
+  padding: 0 3em 2em 3em!important;
 }
 
 /* blog writing and img*/
