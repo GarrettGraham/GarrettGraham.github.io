@@ -10,25 +10,25 @@
     $stateProvider
     .state('home', {
         url: '/',
-        templateUrl: '/projects.html',
+        templateUrl: 'views/projects.html',
         controller: 'projectsCtrl',
         controllerAs: 'projects'
     })
     .state('blog', {
       url: '/blog',
-      templateUrl: '/blog.html',
+      templateUrl: 'views/blog.html',
       controller: 'blogCtrl',
       controllerAs: 'blog'
     })
     .state('profWriting', {
       url: '/profWriting',
-      templateUrl: 'profWriting.html',
+      templateUrl: 'views/profWriting.html',
       controller: 'profWritingCtrl',
       controllerAs: 'profWriting'
     })
     .state('photography', {
       url: '/photography',
-      templateUrl: 'photography.html',
+      templateUrl: 'views/photography.html',
       controller: 'photographyCtrl',
       controllerAs: 'photography'
     });
