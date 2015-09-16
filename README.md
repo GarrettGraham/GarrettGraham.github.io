@@ -1,2 +1,2 @@
 # GarrettGraham.github.io
-gh pages blog
+gh pages blog and projects portfolio

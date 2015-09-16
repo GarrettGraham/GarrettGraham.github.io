@@ -17,7 +17,7 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
 	<!-- bower:css -->
-		<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 	<!-- endbower -->
 	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
@@ -34,54 +34,74 @@
 	<div class="container">
 		<div class="sidebar">
 			<aside class="col-xs-12 col-sm-4 col-md-4">
-				<img class="picOfMe" src="/img/Me.JPG" alt="Garrett Graham">
-				<div class="dateToday" id="currentDate"></div>
-				<h1 class="signature">Garrett Graham</h1>
-				<p class="aboutMe">Humanitarian with a zest for life, I believe that knowledge is power, to not only advance personally but to advance others as well. The beauty in technology is the ease with which information is disseminated. That is where I come in. I have always been a connector of people and ideas, bridging gaps is my game. I am a classically trained violinist and a certified yoga instructor seeking the balance in life.</p>
-				<hr>
-				<ul class="links">
-					<!-- I want the projects to show up on the initial view of the page and so I named it home. -->
-					<li><a ui-sref="home">Projects</a>
-						<li>
-					<li><a ui-sref="blog">Blog</a>
-					</li>
-					<li><a ui-sref="profWriting">Professional Writing</a>
-					</li>
-					<li><a ui-sref="photography">Photography</a>
-					</li>
-					<!-- <li><a href="#">Contact</a>
+					<img class="picOfMe" src="/img/Me.JPG" alt="Garrett Graham">
+					<div class="dateToday" id="currentDate"></div>
+					<h1 class="signature">Garrett Graham</h1>
+					<nav>
+						<ul>
+							<li>
+								<a href="https://github.com/GarrettGraham"><i class="fa fa-github"></i></a>
+							</li>
+							<li>
+								<a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/profile/view?id=137617920&trk=hp-identity-photo"><i class="fa fa-linkedin"></i></a>
+							</li>
+							<li>
+								<a href="mailto:ganderson7197@icloud.com?Subject=Hello!%20I%20saw%20your%20portfolio%20and%20wanted%20to%20contact%20you.&body=Hi%20Garrett,%0A%0AI%20hear%20you%20are%20looking%20for%20a%20front-end%20web%20development%20position.%0ALet's%20schedule%20a%20time%20to%20speak%20at%20your%20earliest%20convience.%0A%0ARegards,"
+								target="_top"><i class="fa fa-envelope page-scroll"></i></a>
+							</li>
+						</ul>
+					</nav>
+					<p class="aboutMe">Humanitarian with a zest for life, I believe that knowledge is power, to not only advance personally but to advance others as well. The beauty in technology is the ease with which information is disseminated. That is where I come in. I have always
+						been a connector of people and ideas, bridging gaps is my game. I am a classically trained violinist and a certified yoga instructor seeking the balance in life.</p>
+					<hr>
+					<ul class="links">
+						<!-- I want the projects to show up on the initial view of the page and so I named it home. -->
+						<li><a ui-sref="home">Projects</a>
+							<li>
+								<li><a ui-sref="blog">Blog</a>
+								</li>
+								<li><a ui-sref="profWriting">Professional Writing</a>
+								</li>
+								<li><a href="/img/GarrettAndersonResume.pdf" target="_blank">Resume</a></li>
+								<!-- <li><a ui-sref="photography">Photography</a>
 					</li> -->
-				</ul>
+								<!-- <li><a href="#">Contact</a>
+					</li> -->
+					</ul>
 			</aside>
+			</div>
+
+			<!-- mainContent div is the box in which the content resides. the blog -->
+			<div class="col-xs-12 col-sm-8 col-md-8 mainContent">
+				<div ui-view></div>
+			</div>
 		</div>
-
-<!-- mainContent div is the box in which the content resides. the blog -->
-		<div class="col-xs-12 col-sm-8 col-md-8 mainContent">
-			<div ui-view></div>
-		</div>
-	</div>
-		<footer class="footer">&copy; 2015 <br> Garrett Lee Graham Anderson</footer>
-	<!-- bower:js -->
-	<script src="bower_components/jquery/dist/jquery.js"></script>
-	<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
-	<script src="bower_components/angular/angular.js"></script>
-	<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-	<script src="bower_components/angular-modal-service/dst/angular-modal-service.js"></script>
-	<!-- endbower -->
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script>
-		window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
-	</script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
-	<script src="js/blogCtrl.js"></script>
-	<script src="js/photographyCtrl.js"></script>
-	<script src="js/profWritingCtrl.js"></script>
-	<script src="js/projectsCtrl.js"></script>
+		<footer class="footer">&copy; 2015
+			<br> Garrett Lee Graham Anderson</footer>
+		<!-- bower:js -->
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<script src="bower_components/angular-modal-service/dst/angular-modal-service.js"></script>
+		<!-- endbower -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')
+		</script>
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/blogCtrl.js"></script>
+		<script src="js/photographyCtrl.js"></script>
+		<script src="js/profWritingCtrl.js"></script>
+		<script src="js/projectsCtrl.js"></script>
 
 
-	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-	<!--
+		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+		<!--
 	<script>
 		(function (b, o, i, l, e, r) {
 			b.GoogleAnalyticsObject = l;
