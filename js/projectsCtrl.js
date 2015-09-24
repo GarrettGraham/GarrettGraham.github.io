@@ -16,6 +16,7 @@ $http.get("js/projects.json").success(function(data) {
       demo: project.details.demo,
       tech: project.details.tech
     });
+    console.log(project.details.tech);
   });
 });
 
