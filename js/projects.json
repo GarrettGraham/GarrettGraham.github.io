@@ -4,7 +4,10 @@
     "projTitle": "Git Commits Timeline",
     "desc": "This is one of the first projects assigned in the cohort and is a moch of a tympanum code drop. The project demonstrates mobile first, responsive design. Utilizing HTML5, CSS3, jQuery and AngularJS, the project displays commit messages in the view by iterating over the GitHub API from my profile.",
     "image": "verticalTimeline",
-    "projDate":"February 2015"
+    "projDate":"February 2015",
+    "demo": {
+      "url": "https://garrettgraham.github.io/CommitsTimeline/index.html"
+    }
   }
 },
 {

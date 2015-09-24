@@ -12,7 +12,8 @@ $http.get("js/projects.json").success(function(data) {
       text: project.details.desc,
       title: project.details.projTitle,
       image: project.details.image,
-      date: project.details.projDate
+      date: project.details.projDate,
+      demo: project.details.demo
     });
   });
 });
