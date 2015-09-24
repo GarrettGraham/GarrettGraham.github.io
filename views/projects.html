@@ -1,16 +1,10 @@
 <div class="portfolioProjects">
   <!-- Portfolio Grid Section -->
-  <section id="portfolio">
-    <!-- <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2>Portfolio</h2>
-      </div>
-    </div> -->
     <div class="col-xs-12 portfolio-item">
       <section ng-repeat="project in projects">
         <a href="{{project.demo.url}}" target="_blank">
           <!-- <a ui-sref="views/timeline.html" ng-click="show()" class="portfolio-link" data-toggle="modal"> -->
-          <img src="img/portfolio/{{project.image}}.png" class="img-responsive firstProject" alt="{{project.image}}">
+          <img src="img/portfolio/{{project.image}}.png" class="img-responsive projects" alt="{{project.image}}">
         </a>
         <h4>{{project.title}}</h4>
         <p>{{project.text}}</p>
@@ -32,15 +26,4 @@
         </ul>
       </section>
     </div>
-    <!-- <div class="col-xs-12 portfolio-item">
-        <a href="https://garrettgraham.github.io/TIY-Mashup/" class="portfolio-link" data-toggle="modal">
-          <img src="img/portfolio/ERQuotes.png" class="img-responsive secondProject" alt="Eleanor Roosevelt Quotes Rotator">
-        </a>
-      </div>
-      <div class="col-xs-12 portfolio-item">
-        <a href="https://theyogime.firebaseapp.com/#/" class="portfolio-link" data-toggle="modal">
-          <img src="img/portfolio/theYogiMe.png" class="img-responsive thirdProject" alt="The Yogi Me Project">
-        </a>
-      </div> -->
-  </section>
 </div>

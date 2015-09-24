@@ -171,20 +171,25 @@ blockquote {
 
 /* projects for portfolio view */
 
+.projects {
+  border: 2px solid #aaa;
+  /*box-shadow: 5px 5px 5px 5px #aaa;*/
+}
+/*
 .firstProject {
   margin:auto;
   border: 3px solid #aaa;
 }
 .secondProject {
   margin: auto;
-  /*padding: 2em 0 2em 0;*/
+  padding: 2em 0 2em 0;
   width:300px;
   height: 218px;
 }
 .thirdProject {
   margin: 0 auto 2em;
   border: 3px solid #aaa;
-}
+}*/
 
 /*citation footer*/
 footer {
