@@ -8,11 +8,21 @@
     </div> -->
       <div class="col-xs-12 portfolio-item">
         <section ng-repeat="project in projects">
-        <!-- <a href="https://garrettgraham.github.io/CommitsTimeline/index.html"> -->
-          <p>{{project.text}}</p>
+        <a href="" target="_blank">
         <!-- <a ui-sref="views/timeline.html" ng-click="show()" class="portfolio-link" data-toggle="modal"> -->
-          <!-- <img src="img/portfolio/{{project.details.image}}.png" class="img-responsive firstProject" alt="GitHub Commits timeline"> -->
-        <!-- </a> -->
+          <img src="img/portfolio/{{project.image}}.png" class="img-responsive firstProject" alt="GitHub Commits timeline">
+    </a>
+    <h4>{{project.title}}</h4>
+          <p>{{project.text}}</p>
+          <ul class="list-inline item-details">
+              <li>GitHub:
+                <strong><a href="" target="_blank">Project Repository</a>
+                </strong>
+              </li>
+              <li>Date:
+                <strong>{{project.date}}</strong>
+              </li>
+            </ul>
       </section>
       </div>
       <!-- <div class="col-xs-12 portfolio-item">

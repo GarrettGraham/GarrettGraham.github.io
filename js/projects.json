@@ -1,0 +1,27 @@
+[
+  {
+  "details": {
+    "projTitle": "Git Commits Timeline",
+    "desc": "This is one of the first projects assigned in the cohort and is a moch of a tympanum code drop. The project demonstrates mobile first, responsive design. Utilizing HTML5, CSS3, jQuery and AngularJS, the project displays commit messages in the view by iterating over the GitHub API from my profile.",
+    "image": "verticalTimeline",
+    "projDate":"February 2015"
+  }
+},
+{
+"details": {
+  "projTitle": "TIY-Mashup",
+  "desc": "This is an assignment given mid-way through the cohort and was open-ended, requiring me to create a project from scratch. I decided to showcase inspirational quotes from Eleanor Roosevelt that inspire me to be bolder in my endeavors This is a project that loops through an array of quotes from Eleanor Roosevelt. This project demonstrates responsive design and utilizes AngularJS, jQuery, HTML5 and CSS3.",
+  "image": "ERQuotes",
+  "projDate": "February 2015"
+}
+},
+{
+"details": {
+  "projTitle": "The Yogi Me",
+  "desc": "This is the final project I completed for The Iron Yard. This project was thought up as a way to not only allow users a way to take a quick break in their work day but to offer them an opportunity to schedule a private lesson with me, a certified yoga instructor. The tech stack utilitzes Angular, jQuery, Bootstrap-Sass, JavaScript and HTML5. The email form uses Mandrill and Mailchimp with an AJAX call. The project was built with the gulp-webapp and Bower.",
+  "image": "theYogiMe",
+  "projDate": "April 2015"
+}
+}
+
+]
