@@ -10,13 +10,14 @@
       <section ng-repeat="project in projects">
         <a href="{{project.demo.url}}" target="_blank">
           <!-- <a ui-sref="views/timeline.html" ng-click="show()" class="portfolio-link" data-toggle="modal"> -->
-          <img src="img/portfolio/{{project.image}}.png" class="img-responsive firstProject" alt="GitHub Commits timeline">
+          <img src="img/portfolio/{{project.image}}.png" class="img-responsive firstProject" alt="{{project.image}}">
         </a>
         <h4>{{project.title}}</h4>
         <p>{{project.text}}</p>
         <ul>
-          <li ng-repeat="tech in project.tech">{{tech}}</li>
-          <img src="img/{{project.tech}}.png" />
+          <li ng-repeat="tech in project.tech">{{tech}}
+          <img src="img/{{tech}}.png" alt="{{tech}}"/>
+          </li>
         </ul>
         <ul class="list-inline item-details">
           <li>GitHub:
