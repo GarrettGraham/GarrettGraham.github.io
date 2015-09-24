@@ -14,6 +14,9 @@
         </a>
         <h4>{{project.title}}</h4>
         <p>{{project.text}}</p>
+        <ul ng-repeat="($index, project) in project.tech">
+          <li>{{project.tech}}</li>
+        </ul>
         <ul class="list-inline item-details">
           <li>GitHub:
             <strong><a href="" target="_blank">Project Repository</a>

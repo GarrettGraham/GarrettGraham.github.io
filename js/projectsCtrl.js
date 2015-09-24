@@ -13,7 +13,8 @@ $http.get("js/projects.json").success(function(data) {
       title: project.details.projTitle,
       image: project.details.image,
       date: project.details.projDate,
-      demo: project.details.demo
+      demo: project.details.demo,
+      tech: project.details.tech
     });
   });
 });
