@@ -185,10 +185,20 @@ blockquote {
   margin: 0 auto 2em;
   border: 3px solid #aaa;
 }
-/*citation footer*/
 
+/*citation footer*/
 footer {
   text-align: center;
+}
+
+/* list for the tech stack thumbnails */
+.techStackList {
+  list-style: none;
+}
+/* thumbnails for the tech stack images */
+.thumbnail {
+  height: 49px;
+  width: 49px;
 }
 
 /*page footer*/
