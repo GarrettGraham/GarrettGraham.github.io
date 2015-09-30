@@ -2,7 +2,7 @@
   <!-- Portfolio Grid Section -->
     <div class="col-xs-12 portfolio-item">
       <h2 class="projectsTitle">Projects</h2>
-      <section ng-repeat="project in projects">
+      <section ng-repeat="project in projects" class="projectBox">
         <a href="{{project.demo.url}}" target="_blank">
           <!-- <a ui-sref="views/timeline.html" ng-click="show()" class="portfolio-link" data-toggle="modal"> -->
           <img src="img/portfolio/{{project.image}}.png" class="img-responsive projects" alt="{{project.image}}">
