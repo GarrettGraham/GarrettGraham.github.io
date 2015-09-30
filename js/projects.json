@@ -1,7 +1,7 @@
 [{
     "details": {
       "projTitle": "Git Commits Timeline",
-      "desc": " The project displays commit messages in the view by iterating over the GitHub API from my profile. The project demonstrates mobile-first, responsive design and is one of the first projects assigned in the cohort and is a moch of a tympanum code drop.",
+      "desc": "I have since been added AngularJS but this is one of the first projects of mine at The Iron Yard. The project displays commit messages by iterating over the GitHub API from my profile. The project demonstrates mobile-first, responsive design. It is a moch of a tympanum code drop and uses ng-repeat for each commit message from the json file.",
       "image": "verticalTimeline",
       "projDate": "February 2015",
       "demo": {
@@ -12,12 +12,15 @@
         "css3",
         "jquery",
         "angularjs"
-      ]
+      ],
+      "github": {
+        "url": "https://github.com/GarrettGraham/CommitsTimeline"
+      }
     }
   }, {
     "details": {
       "projTitle": "TIY-Mashup",
-      "desc": "I decided to showcase inspirational quotes from Eleanor Roosevelt that inspire me to be bolder in my endeavors This is a project that loops through an array of quotes from Eleanor Roosevelt. This project demonstrates responsive design and was given mid-way through the cohort and was open-ended, requiring me to create a project from scratch.",
+      "desc": "I decided to showcase inspirational quotes from Eleanor Roosevelt that inspire me to be bolder in my endeavors. This is a project that loops through an array of quotes from Eleanor Roosevelt. This project was given mid-way through the cohort and demonstrates responsive design. The quotes carousel is set on a timer and the background images altnerate on another timer and uses jQuery.",
       "image": "ERQuotes",
       "projDate": "February 2015",
       "demo": {
@@ -28,7 +31,10 @@
         "css3",
         "jquery",
         "angularjs"
-      ]
+      ],
+      "github": {
+        "url": "https://github.com/GarrettGraham/TIY-Mashup"
+      }
     }
   }, {
     "details": {
@@ -50,7 +56,10 @@
         "gulpjs",
         "mandrill",
         "mailchimp"
-      ]
+      ],
+      "github": {
+        "url": "https://github.com/GarrettGraham/TheYogiMe"
+      }
     }
   }
 

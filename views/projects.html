@@ -1,6 +1,7 @@
 <div class="portfolioProjects">
   <!-- Portfolio Grid Section -->
     <div class="col-xs-12 portfolio-item">
+      <h2 class="projectsTitle">Projects</h2>
       <section ng-repeat="project in projects">
         <a href="{{project.demo.url}}" target="_blank">
           <!-- <a ui-sref="views/timeline.html" ng-click="show()" class="portfolio-link" data-toggle="modal"> -->
@@ -8,8 +9,8 @@
         </a>
         <h4>{{project.title}}</h4>
         <p>{{project.text}}</p>
-        <ul class="list-inline">
-          <li ng-repeat="tech in project.tech" class="techStackList">
+        <ul class="list-inline techStack">
+          <li ng-repeat="tech in project.tech">
             <figure>
           <img src="img/{{tech}}.png" alt="{{tech}}" class="thumbnail"/>
         </figure>
@@ -17,7 +18,7 @@
         </ul>
         <ul class="list-inline">
           <li>GitHub:
-            <strong><a href="" target="_blank">Project Repository</a>
+            <strong><a href="{{project.github.url}}" target="_blank">Project Repository</a>
             </strong>
           </li>
           <li>Date:

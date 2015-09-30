@@ -14,9 +14,10 @@ $http.get("js/projects.json").success(function(data) {
       image: project.details.image,
       date: project.details.projDate,
       demo: project.details.demo,
-      tech: project.details.tech
+      tech: project.details.tech,
+      github: project.details.github
     });
-    console.log(project.details.tech);
+    console.log(project.details.github);
   });
 });
 

@@ -1,7 +1,7 @@
 (function(){
 
   var app = angular.module('myBlog', [
-    'ui.router', 'ui.bootstrap'
+    'ui.router'
   ]);
 
   app.config(['$urlRouterProvider', '$stateProvider', function ($urlRouterProvider, $stateProvider){
